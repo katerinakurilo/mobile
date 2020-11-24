@@ -1,0 +1,614 @@
+header button {
+    Font: Nunito; 
+    font-style: normal;   
+    font-size: 16px;
+    font-weight: 700;
+    width: 137px;
+    height: 40px;
+color: #3E3F43;
+cursor: pointer;
+background-color: papayawhip;
+border-radius: 8px;
+margin-top: 10px;
+}
+
+   .home {
+     font-family: Nunito;
+     font-style: normal;
+     font-size: 16px;
+     line-height: 22px;
+     font-weight: 800;
+     color: #DAA520;
+     
+   }
+
+header {
+    display: flex;
+    justify-content: space-around;
+    border: 0px solid olive;
+}
+header .menu ul {
+    display: flex;
+    list-style: none;
+    border: 0px solid olive;
+    font-family: Nunito;
+     font-style: normal;
+     font-size: 16px;
+     line-height: 22px;
+     font-weight: normal;
+     color: rgba(34, 34, 34, 0.75)
+
+
+}
+header .menu ul li {
+    margin: 0px 48px;
+    border: 0px solid olive;
+   
+}
+   header .logo {
+    border: 0px solid olive;
+margin-left: 80px;
+margin-top: 10px;
+height: 33px;
+width: 192px;
+   } 
+
+.sign{
+margin-right: 20px;
+}
+@media screen and (max-width: 1400px) {
+    header .menu ul li{
+      margin: 5px;
+    }
+  }
+  @media screen and (max-width: 910px) {
+    header  {
+        flex-direction: column;
+      }
+    header .menu ul li{
+        flex-direction: column;
+        align-self: center;
+    }
+  }
+  .table img {
+    height: 800px;
+    width: 630px;
+    display: flex;
+  }
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .text {
+    border: 0px solid greenyellow;
+  }
+  .text p {
+    font: Nunito;
+    font-size: 36px;
+    color: #3E3F43;
+    weight: 400;
+
+  }
+  .text h1 {
+    font: Nunito;
+    font-size: 72px;
+    color: #313235;
+    weight: 700;
+
+  }
+  .text button {
+    width: 175px;
+    height: 50px;
+    border-radius: 4px;
+    background: #DAA520;
+    color: #FFFFFF;
+    font-size: 16px;
+    font: Nunito;
+  }
+  .container1 {
+    display: flex;
+    justify-content: center;
+    border: 0px solid pink;
+  }
+  .flow {
+    width: 30px;
+    height: 30px;
+    margin-top: 100px;
+  }
+.we {
+  font-family: Nunito;
+     font-style: normal;
+     font-size: 36px;
+     line-height: 49px;
+     font-weight: bold;
+     color: #3E3F43;
+     margin-top: 55px;
+}
+.ab {
+  font-family: Nunito;
+     font-style: normal;
+     font-size: 72px;
+     line-height: 98px;
+     font-weight: 800;
+    
+     color: rgba(34, 34, 34, 0.1);
+}
+  .container2 {
+    display: flex;
+    justify-content: space-around;
+    border: 0px solid indigo;
+  }
+  .container3 {
+    display: flex;
+    justify-content: space-around;
+    border: 0px solid indigo;
+  }
+  .container4 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .container5  {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .container6 {
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .desk {
+    
+    background: url(Rectangle\ 7.svg);
+    border-radius: 0px 60px;
+    height: 400px;
+    width: 280px;
+  }
+  
+  .ch {
+    
+    background: url(Rectangle\ 8.svg);
+    border-radius: 0px 60px;
+    height: 400px;
+    width: 280px;
+  }
+  .kit {
+    
+    background: url(Rectangle\ 6.svg);
+    border-radius: 0px 60px;
+    height: 400px;
+    width: 280px;
+  }
+  .container7 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+   
+   
+  }
+  .shelf {
+    background: url(Rectangle\ 7.svg);
+    border-radius: 0px 60px;
+    height: 400px;
+    width: 280px;
+    
+  }
+
+.el{
+    background: url(Rectangle\ 8.svg);
+    border-radius: 0px 60px;
+    height: 400px;
+    width: 280px;
+  }
+  .unshow{
+    color: white;
+    height: 400px;
+    width: 280px;
+  }
+ 
+
+  .container8 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  .gr65 img {
+    height: 320px;
+    width: 240px;
+  }
+  .gr66 img{
+    height: 320px;
+    width: 240px;
+  }
+  .block {
+    border-radius: 0px 60px;
+    height: 280px;
+    width: 384px;
+    border: 1px solid black;
+  }
+  figcaption {
+    float: right;
+  }
+  .figure img {
+    margin-left: 20px;
+  }
+  .subs {
+    display: flex;
+    justify-content: space-around;
+    border: 0px solid teal;
+
+  }
+  .pole {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    height: 40px;
+    width: 448px;
+    border: 1px solid orange;
+  }
+  .pole button {
+    background-color: #DAA520;
+    height: 40px;
+    width: 120px;
+    border: 0px solid teal;
+  }
+  input {
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 16px;
+     line-height: 22px;
+     font-weight: normal;
+     color: #AFAFAF;
+    height: 40px;
+    width: 318px;
+  }
+  
+  
+ .product ul{
+    list-style: none;
+    color: #8D8D8D;
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 14px;
+     line-height: 19px;
+     font-weight: normal;
+     margin-top: 35px;
+  }
+  .product li{
+    margin-top: 16px;
+  }
+  .head {
+    font-size: 25px;
+    color: black;
+  }
+  .woodies ul{
+    list-style: none;
+    color: #8D8D8D;
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 14px;
+     line-height: 19px;
+     font-weight: normal;
+     
+  }
+  .woodies li{
+    margin-top: 16px;
+  }
+
+  .resourses ul{
+    list-style: none;
+    color: #8D8D8D;
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 14px;
+     line-height: 19px;
+     font-weight: normal;
+     margin-top: 35px;
+  }
+  .resourses li {
+    margin-top: 16px;
+  }
+  .company ul{
+    list-style: none;
+    color: #8D8D8D;
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 14px;
+     line-height: 19px;
+     font-weight: normal;
+     margin-top: 35px;
+  }
+  .company li {
+    margin-top: 16px;
+  }
+  .follow ul{
+    list-style: none;
+    color: #8D8D8D;
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 14px;
+     line-height: 19px;
+     font-weight: normal;
+     margin-top: 35px;
+  }
+  .follow li {
+    margin-top: 16px;
+  }
+
+  .container9 {
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .picture img{
+    height: 455px;
+    width: 400;
+  }
+  .spisok {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    
+  }
+  .container10 {
+    display: flex;
+    justify-content: center;
+    border: 0px solid pink;
+  }
+  .container11 {
+    display: flex;
+    justify-content: center;
+    border: 0px solid pink;
+  }
+  .container12 {
+    display: flex;
+    justify-content: center;
+    border: 0px solid pink;
+  }
+  #end {
+    display: flex;
+    justify-content: center;
+  }
+  .rectangle {
+    display: flex;
+    justify-content:flex-end;
+  }
+  .rectangle img{
+    margin-right: 5px;
+  }
+  .strelki {
+    display: flex;
+    justify-content: space-between;
+  }
+  .text2 {
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 36px;
+     line-height: 49px;
+     font-weight: 400;
+     color: #000000;
+     margin-top: 109px;
+  }
+  .text3 {
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 24px;
+     line-height: 33px;
+     font-weight: 200;
+     color: #000000;
+     margin-top: 13px;
+  }
+  .container5 button{
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 16px;
+     line-height: 22px;
+     font-weight: bold;
+     color: #FFFFFF;
+     margin-top: 13px;
+     background-color: #DAA520;
+     border-radius: 4px;
+     height: 50px;
+     width: 212px;
+  }
+  .desk p {
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 24px;
+     line-height: 33px;
+     font-weight: 400;
+     color: #3E3F43;
+     margin-left: 16px;
+  }
+  .desk button {
+    width: 123px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 141px;
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 18px;
+     line-height: 25px;
+     font-weight: 200;
+     color: #3E3F43;
+     background-color: #F9BDBD;
+     border-radius: 4px;
+     
+
+  }
+  .desk img {
+    width: 246px;
+    height: 224px;
+    margin-top: 10px;
+  }
+
+  .ch p {
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 24px;
+     line-height: 33px;
+     font-weight: 400;
+     color: #3E3F43;
+     margin-left: 16px;
+  }
+  .ch button {
+    width: 123px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 141px;
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 18px;
+     line-height: 25px;
+     font-weight: 200;
+     color: #3E3F43;
+     background-color: #F7DEA6;
+     border-radius: 4px;
+     
+
+  }
+  .ch img {
+    width: 165.25px;
+    height: 235px;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+
+  .kit p {
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 24px;
+     line-height: 33px;
+     font-weight: 400;
+     color: #3E3F43;
+     margin-left: 16px;
+  }
+  .kit button {
+    width: 123px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 141px;
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 18px;
+     line-height: 25px;
+     font-weight: 200;
+     color: #3E3F43;
+     background-color: #A8DCEC;
+     border-radius: 4px;
+     
+
+  }
+  .kit img {
+    width: 165.25px;
+    height: 235px;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .shelf p {
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 24px;
+     line-height: 33px;
+     font-weight: 400;
+     color: #3E3F43;
+     margin-left: 16px;
+  }
+  .shelf button {
+    width: 123px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 141px;
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 18px;
+     line-height: 25px;
+     font-weight: 200;
+     color: #3E3F43;
+     background-color: #F9BDBD;
+     border-radius: 4px;
+     
+
+  }
+  .shelf img {
+    width: 165.25px;
+    height: 235px;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .el p {
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 24px;
+     line-height: 33px;
+     font-weight: 400;
+     color: #3E3F43;
+     margin-left: 16px;
+  }
+  .el button {
+    width: 123px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 141px;
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 18px;
+     line-height: 25px;
+     font-weight: 200;
+     color: #3E3F43;
+     background-color: #F7DEA6;
+     border-radius: 4px;
+     
+
+  }
+  .el img {
+    width: 165.25px;
+    height: 235px;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .sandra {
+    display: flex;
+    justify-content: flex-start;
+    border: 0px solid yellow;
+    width: 199px;
+    height: 40px;
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 12px;
+     line-height: 16px;
+     font-weight: 200;
+     color: #AFAFAF;
+     margin-left: 10px;
+  }
+  .sandra p {
+    margin-top: 5px;
+  }
+  .blocks {
+    margin-left: 10px;
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 14px;
+     line-height: 19px;
+     font-weight: 400;
+     color: #3E3F43;
+  }
+  .stars {
+    margin-left: 10px;
+    margin-top: 45px;
+  }
+  .tx {
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 18px;
+     line-height: 25px;
+     font-weight: normal;
+     color: #000000;
+  }
+  #end {
+    font-family: Nunito;
+    font-style: normal;
+     font-size: 12px;
+     line-height: 16px;
+     font-weight: normal;
+     color: #8D8D8D;
+  }
